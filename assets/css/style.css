@@ -149,6 +149,12 @@ p {
   font-size: 14px;
 }
 
+.team-image .social-icon {
+  height: 30px;
+  margin: 5px;
+  border-radius: 0%;
+}
+
 #contact {
   padding: 0px;
   background: #e2e2e2;
