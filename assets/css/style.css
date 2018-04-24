@@ -2,6 +2,16 @@ body {
   font-family: 'Lato', 'Helvetica', 'sans-serif';
 }
 
+/* .backgroundImage {
+  background: url(../img/background/landscape.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+} */
+
 .navbar-brand {
   padding-left: 0px;
 }
@@ -71,8 +81,23 @@ h2 {
 
 #about h5 {
   margin-top: 30px;
-  font-weight: bold;
   font-size: 18px;
+}
+
+#how-it-works h2 {
+  color: white;
+}
+
+#how-it-works {
+  background: #fff no-repeat 0;
+  background-image: url(../img/background/landscape.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+}
+
+.white-transparent {
+  background-color: rgba(255,255,255,0.25);
 }
 
 .lines {
@@ -101,11 +126,11 @@ h2 {
 }
 
 .team-image {
-  margin: 40px 0px 0px;
+  margin: 45px 0px 0px;
 }
 
 .team-image h4 {
-  margin-top: 30px;
+  margin-top: 15px;
   font-weight: bold;
 }
 
@@ -130,7 +155,6 @@ h2 {
 
 .white {
   padding: 50px 0px;
-  border: 4px solid rgba(241, 239, 239, 0.89);
 }
 
 .space-around-row {
@@ -150,8 +174,8 @@ p {
 }
 
 .team-image .social-icon {
-  height: 30px;
-  margin: 5px;
+  height: 25px;
+  margin: 3px;
   border-radius: 0%;
 }
 
