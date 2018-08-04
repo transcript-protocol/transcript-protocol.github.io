@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato', 'Helvetica', 'sans-serif';
+  font-family: 'Helvetica', 'sans-serif';
 }
 
 /* .backgroundImage {
@@ -13,7 +13,18 @@ body {
 } */
 
 .navbar-brand {
-  padding-left: 0px;
+  padding: 15px 15px 7px;
+  font-size: 30px;
+  font-family: garamond;
+}
+
+.brand {
+  margin-left: 6px;
+}
+
+.logo {
+  height: 40px;
+  margin-top: -10px;
 }
 
 .nav li a {
@@ -56,6 +67,18 @@ h2 {
   min-height: 100vh;
 }
 
+/* @media(min-width: 600px) {
+  .home-container {
+    width: 80%;
+  }
+}
+
+@media(min-width: 1200px) {
+  .home-container {
+    width: 70%;
+  }
+} */
+
 #home h3 {
   font-size: 54px;
 }
@@ -66,8 +89,17 @@ h2 {
   font-weight: 100;
 }
 
+@media(max-width: 470px) {
+  #home h4 {
+    font-size: 24px;
+  }
+  #home h3 {
+    font-size: 40px;
+  }
+}
+
 #splash-1 {
-  margin-top: 200px;
+  margin-top: 250px;
 }
 
 #splash-2 {
@@ -84,6 +116,19 @@ h2 {
   font-size: 18px;
 }
 
+#mission p {
+  font-size: 20px;
+}
+
+#mission {
+  background: #fff no-repeat 0;
+  background-image: url(../img/background/institution.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+}
+
+/* HOW IT WORKS
 #how-it-works h2 {
   color: white;
 }
@@ -94,10 +139,12 @@ h2 {
   background-size: cover;
   background-position: 50%;
   background-attachment: fixed;
-}
+} */
 
 .white-transparent {
-  background-color: rgba(255,255,255,0.25);
+  background-color: rgba(255,255,255,0.65);
+  width: 100%;
+  height: 100%;
 }
 
 .lines {
