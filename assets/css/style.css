@@ -15,7 +15,7 @@ body {
 .navbar-brand {
   padding: 15px 15px 7px;
   font-size: 30px;
-  font-family: garamond;
+  font-family: 'EB Garamond', serif;
 }
 
 .brand {
@@ -31,14 +31,21 @@ body {
   font-size: 14px;
 }
 
+.navbar-default .navbar-nav>.active>a {
+  background-color: inherit;
+  padding: 15px 2px 2px;
+  margin: 0px 13px;
+  border-bottom: 2px solid #e5000f;
+}
+
 h2 {
   margin-bottom: 40px;
 }
 
 #home {
   min-height: 100vh;
-  color: white;
-  background: url(../img/home_img.jpg) 50% 35% / cover no-repeat white;
+  color: #36454f;
+  background: url(../img/background/institution2.jpg) 50% 35% / cover no-repeat white;
 }
 
 /* home layover text  */
@@ -126,6 +133,10 @@ h2 {
   background-size: cover;
   background-position: 50%;
   background-attachment: fixed;
+}
+
+#mission .container {
+  min-height: 80vh;
 }
 
 /* HOW IT WORKS
@@ -216,6 +227,13 @@ h2 {
   align-items: center;
 }
 
+.centered-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 p {
   font-size: 14px;
 }
@@ -237,14 +255,15 @@ p {
 
 #contact-hero {
   background: white no-repeat 50% 50%;
-  background-image: url(../img/blockchain.jpg);
+  background-image: url(../img/background/parchment.jpg);
   background-size: cover;
   width: 100%;
   color: white;
 }
 
+
 #contact .overlay {
-  background-color: rgba(0,0,0,0.6);
+  /* background-color: rgba(0,0,0,0.6); */
   padding: 50px 0px 10px;
   min-height: 70vh;
 }
@@ -255,7 +274,7 @@ form {
 
 .button {
   color: white;
-  background-color: #f49b1d;
+  background-image: linear-gradient(90deg, #e5000f, #FF5014FF);
   border: none;
   border-radius: 0px;
   width: 250px;
