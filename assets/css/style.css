@@ -38,9 +38,13 @@ h2 {
 }
 
 #home {
-  min-height: 100vh;
+  min-height: 90vh;
   color: #36454f;
-  background: url(../img/background/institution2.jpg) 50% 35% / cover no-repeat white;
+  background: -moz-linear-gradient(45deg, #ffffff 1%, #fc9862 46%, #f22121 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #ffffff 1%,#fc9862 46%,#f22121 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(225deg, #ffffff 1%,#fc9862 46%,#f22121 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f22121',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  /* background: url(../img/background/gradient.png) 0% 100% / cover no-repeat white; */
 }
 
 /* home layover text  */
@@ -66,7 +70,7 @@ h2 {
 
 .home-container {
   position: relative;
-  min-height: 100vh;
+  min-height: 90vh;
 }
 
 /* @media(min-width: 600px) {
@@ -82,12 +86,17 @@ h2 {
 } */
 
 #home h3 {
-  font-size: 54px;
+  font-size: 40px;
 }
+
+/* #home img {
+  height: 100px;
+  width: 100px;
+} */
 
 #home h4 {
   margin-top: 20px;
-  font-size: 40px;
+  font-size: 54px;
   font-weight: 100;
 }
 
@@ -131,7 +140,7 @@ h2 {
   background-attachment: fixed;
 } */
 
-#mission .col-xs-11 {
+#mission {
   background: #fff no-repeat 0;
   background-image: url(../img/background/institution.jpg);
   background-size: cover;
@@ -139,7 +148,7 @@ h2 {
   background-attachment: fixed;
 }
 
-#mission .white-transparent {
+#mission .col-xs-11 {
   min-height: 80vh;
 }
 
@@ -279,7 +288,8 @@ form {
 
 .button {
   color: white;
-  background-image: linear-gradient(90deg, #e5000f, #FF5014FF);
+  background: #36454f;
+  /* background-image: linear-gradient(90deg, #e5000f, #FF5014FF); */
   border: none;
   border-radius: 0px;
   width: 250px;
