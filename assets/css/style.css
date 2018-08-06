@@ -1,5 +1,5 @@
 body {
-  font-family: 'Quicksand', 'Helvetica', 'sans-serif';
+  font-family: 'Helvetica', 'sans-serif';
 }
 
 /* .backgroundImage {
@@ -22,8 +22,7 @@ body {
 }
 
 .nav li a {
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 14px;
 }
 
 .navbar-default .navbar-nav>.active>a {
