@@ -12,19 +12,13 @@ body {
   position: fixed;
 } */
 
-.navbar-brand {
-  padding: 15px 15px 7px;
-  font-size: 30px;
-  font-family: 'EB Garamond', serif;
-}
-
 .brand {
   margin-left: 6px;
 }
 
 .logo {
-  height: 40px;
-  margin-top: -10px;
+  height: 52px;
+  margin-top: -14px;
 }
 
 .nav li a {
@@ -127,7 +121,16 @@ h2 {
   font-size: 20px;
 }
 
+/* 
 #mission {
+  background: #fff no-repeat 0;
+  background-image: url(../img/background/institution.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+} */
+
+#mission .col-xs-11 {
   background: #fff no-repeat 0;
   background-image: url(../img/background/institution.jpg);
   background-size: cover;
@@ -135,7 +138,7 @@ h2 {
   background-attachment: fixed;
 }
 
-#mission .container {
+#mission .white-transparent {
   min-height: 80vh;
 }
 
@@ -207,7 +210,8 @@ h2 {
 }
 
 .pale-gray {
-  background-color: rgba(241, 239, 239, 0.89);
+  /*background-color: rgba(241, 239, 239, 0.89);*/
+  background-color: #f5f5f5;
   padding: 50px 0px;
 }
 
