@@ -1,5 +1,15 @@
+@font-face {
+  font-family: Campton;
+  src: url(../fonts/Campton-Book.otf);
+}
+
+@font-face {
+  font-family: CamptonMedium;
+  src: url(../fonts/Campton-Medium.otf);
+}
+
 body {
-  font-family: 'Quicksand', 'Helvetica', 'sans-serif';
+  font-family: 'Campton', 'Quicksand', 'Arial', 'sans-serif';
 }
 
 /* .backgroundImage {
@@ -22,6 +32,7 @@ body {
 }
 
 .nav li a {
+  font-family: CamptonMedium;
   font-size: 16px;
   font-weight: bold;
 }
@@ -39,6 +50,7 @@ h2 {
 
 #home {
   min-height: 90vh;
+  font-family: CamptonMedium;
   color: #36454f;
   background: -moz-linear-gradient(45deg, #ffffff 1%, #fc9862 46%, #f22121 99%); /* FF3.6-15 */
   background: -webkit-linear-gradient(45deg, #ffffff 1%,#fc9862 46%,#f22121 99%); /* Chrome10-25,Safari5.1-6 */
@@ -126,6 +138,18 @@ h2 {
   }
   #home img {
     height: 150px;
+  }
+}
+
+@media(max-width: 400px) {
+  #home h4 {
+    font-size: 40px;
+  }
+  #home h3 {
+    font-size: 36px;
+  }
+  #home img {
+    height: 200px;
   }
 }
 
