@@ -63,14 +63,16 @@ h2 {
   align-items: flex-end;
 }
 
-.splash-logo {
-  height: 100px;
-  margin-top: 150px;
+#splash {
+  min-height: 90vh;
 }
 
 .home-container {
   position: relative;
-  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* @media(min-width: 600px) {
@@ -102,19 +104,25 @@ h2 {
 
 @media(max-width: 470px) {
   #home h4 {
-    font-size: 24px;
+    font-size: 40px;
   }
   #home h3 {
-    font-size: 40px;
+    font-size: 24px;
   }
 }
 
 #splash-1 {
-  margin-top: 250px;
+  text-align: left;
+  width: 100%;
+}
+
+#splash-logo {
+  height: 300px;
 }
 
 #splash-2 {
-  align-self: flex-end;
+  text-align: right;
+  width: 100%;
 }
 /* home layover text */
 
@@ -268,9 +276,13 @@ p {
 }
 
 #contact-hero {
-  background: white no-repeat 50% 50%;
+  background: -moz-linear-gradient(45deg, #ffffff 1%, #fc9862 46%, #f22121 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #ffffff 1%,#fc9862 46%,#f22121 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(225deg, #ffffff 1%,#fc9862 46%,#f22121 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f22121',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  /*background: white no-repeat 50% 50%;
   background-image: url(../img/background/parchment.jpg);
-  background-size: cover;
+  background-size: cover; */
   width: 100%;
   color: white;
 }
