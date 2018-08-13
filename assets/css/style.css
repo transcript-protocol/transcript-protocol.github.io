@@ -187,6 +187,7 @@ and (min-width: 550px) {
 
 #about h4 {
   font-size: 20px;
+  font-weight: bold;
 }
 
 #mission p {
@@ -322,6 +323,7 @@ p {
 
 .contact-header h4 {
   margin: 0px 15px 0px;
+  font-size: 20px;
   color: #36454f;
 }
 
