@@ -47,6 +47,8 @@ body {
 
 h2 {
   margin-bottom: 40px;
+  font-weight: bold;
+  text-align: center;
 }
 
 #home {
