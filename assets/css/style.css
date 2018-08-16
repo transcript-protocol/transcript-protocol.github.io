@@ -148,15 +148,15 @@ h2 {
   font-weight: bold;
 }
 
-.faqIndex .item {
+.faq-index .item {
   position: relative;
 }
 
-.faqIndex .item.active .title {
-  color: #019a93;
+.faq-index .item.active .title {
+  color: #e73e28;
 }
 
-.faqIndex .title {
+.faq-index .title {
   padding: 20px;
   padding-right: 40px;
   line-height: 1.2em;
@@ -166,11 +166,11 @@ h2 {
   cursor: pointer;
 }
 
-.faqIndex .item.active .body {
+.faq-index .item.active .body {
   padding: 20px;
   height: auto;
 }
-.faqIndex .body {
+.faq-index .body {
   box-sizing: border-box;
   padding: 0 20px;
   background: #f9f9f9;
