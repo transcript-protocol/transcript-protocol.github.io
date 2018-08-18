@@ -501,7 +501,7 @@ p {
 
 #contact .overlay {
   /* background-color: rgba(0,0,0,0.6); */
-  padding: 50px 0px 10px;
+  padding: 50px 0px;
   min-height: 70vh;
 }
 
