@@ -54,15 +54,23 @@ h2 {
   text-align: center;
 }
 
-#home {
+
+/* #home {
   min-height: 90vh;
   font-family: CamptonMedium;
   color: #36454f;
-  background: -moz-linear-gradient(45deg, #ffffff 1%, #fc9862 46%, #f22121 99%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #ffffff 1%,#fc9862 46%,#f22121 99%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(225deg, #ffffff 1%,#fc9862 46%,#f22121 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f22121',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-  /* background: url(../img/background/gradient.png) 0% 100% / cover no-repeat white; */
+  background: -moz-linear-gradient(45deg, #ffffff 1%, #fc9862 46%, #f22121 99%);
+  background: -webkit-linear-gradient(45deg, #ffffff 1%,#fc9862 46%,#f22121 99%);
+  background: linear-gradient(225deg, #ffffff 1%,#fc9862 46%,#f22121 99%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f22121',GradientType=1 );
+} */
+
+#home {
+  background: #fff no-repeat 0;
+  background-image: url(../img/background/home.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
 }
 
 /* home layover text  */
@@ -324,15 +332,6 @@ and (min-width: 550px) {
   font-size: 20px;
 }
 
-/* 
-#security {
-  background: #fff no-repeat 0;
-  background-image: url(../img/background/institution.jpg);
-  background-size: cover;
-  background-position: 50%;
-  background-attachment: fixed;
-} */
-
 #security {
   background: #fff no-repeat 0;
   background-image: url(../img/background/institution.jpg);
@@ -376,6 +375,13 @@ and (min-width: 550px) {
   background-position: 50%;
   background-attachment: fixed;
 } */
+
+.white-trans {
+  background-color: rgba(255,255,255,0.75);
+  width: 100%;
+  height: 100%;
+}
+
 
 .white-transparent {
   background-color: rgba(255,255,255,0.85);
